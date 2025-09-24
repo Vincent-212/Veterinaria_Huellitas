@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Veterinaria Huellitas - Contacto</title>
+  <link rel="stylesheet" href="../bootstrap.min.css" />
+  <link rel="stylesheet" href="../estilos_principal.css" />
+</head>
+<body>
+
+<header class="bg-light py-3 mb-4 shadow-sm">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+    <h1 class="h3 mb-0">Veterinaria Huellitas</h1>
+    <nav class="nav">
+      <a class="nav-link" href="../Principal.html">Inicio</a>
+      <a class="nav-link" href="../Servicios/Servicios.html">Servicios</a>
+      <a class="nav-link" href="../Sobre_Nosotros/Sobre_Nosotros.html">Nosotros</a>
+      <a class="nav-link" href="../Blog/Blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Contacto</h2>
+  <p><strong>Dirección:</strong> Calle Campero, Llallagua</p>
+  <div class="mb-4">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.5286116918126!2d-66.82744578461559!3d-17.054954388401733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3ecf9a79c548f%3A0xdd16a04c5ff6646d!2sVeterinaria%20Huellitas%20Llallagua!5e0!3m2!1ses!2sus!4v1695536338417!5m2!1ses!2sus"
+      width="100%"
+      height="300"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+  </div>
+  <p><strong>Teléfonos:</strong> +591 72396280 | WhatsApp: +591 72396280</p>
+  <p><strong>Horario de atención:</strong> Lunes a viernes 9:00 - 20:00, Sábados 10:00 - 14:00</p>
+  <form action="enviar_formulario.php" method="post" class="mb-5">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico:</label>
+      <input type="email" id="email" name="email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
+  <a
+    href="https://wa.me/+591 72396280"
+    class="btn btn-success btn-floating"
+    target="_blank"
+    rel="noopener"
+    aria-label="Chatear por WhatsApp"
+    style="position: fixed; bottom: 20px; right: 20px; border-radius: 50%; padding: 10px 12px; z-index: 1050; box-shadow: 0px 2px 10px rgba(0,0,0,0.3);"
+  >
+    <img src="whatsapp.jpg" alt="WhatsApp" style="width:24px; height:24px;" />
+  </a>
+</main>
+
+<footer class="bg-light py-3 text-center mt-5">
+  <p>© 2025 Veterinaria Huellitas</p>
+</footer>
+
+</body>
+</html>
+
